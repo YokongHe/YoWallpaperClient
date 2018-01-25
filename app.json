@@ -4,6 +4,31 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "color": "#e6e6e6",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/wallpapers/wallpapers",
+        "text": "首页",
+        "iconPath": "images/ic_home.png",
+        "selectedIconPath": "images/ic_home_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "收藏",
+        "iconPath": "images/ic_mark.png",
+        "selectedIconPath": "images/ic_mark_selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "关于",
+        "iconPath": "images/ic_more.png",
+        "selectedIconPath": "images/ic_more_selected.png"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
