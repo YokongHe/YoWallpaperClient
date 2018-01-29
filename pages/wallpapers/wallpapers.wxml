@@ -1,5 +1,5 @@
 <scroll-view style='background-color:#000000'>
   <block wx:for="{{photoList}}">
-    <image src="{{item}}" style='width:100%;background-color:#000000' data-id="{{item}}" mode='widthFix' lazy-load='true' bindtap='jumpToInfo'/>
+    <image src="{{item.thumbUrl}}" style='width:100%;background-color:#000000' data-id="{{item.url}}" mode='widthFix' lazy-load='true' bindtap='jumpToInfo'/>
   </block>
 </scroll-view>

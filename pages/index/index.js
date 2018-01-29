@@ -16,9 +16,7 @@ Page({
     })
   },
   jumpToWallpaper: function() {
-    wx.navigateTo({
-      url: '../wallpapers/wallpapers',
-    })
+    wx.clearStorage()
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
