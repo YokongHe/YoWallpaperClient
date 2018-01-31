@@ -2,7 +2,8 @@
   "pages": [
     "pages/wallpapers/wallpapers",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/detail/detail"
   ],
   "tabBar": {
     "color": "#e6e6e6",

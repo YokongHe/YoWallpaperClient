@@ -16,7 +16,7 @@ Page({
     })
   },
   jumpToWallpaper: function() {
-    wx.clearStorage()
+    wx.clearStorageSync()
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

@@ -1,0 +1,12 @@
+<!--pages/detail/detail.wxml-->
+<view class='parent'>
+  <image wx:if="{{thumbUrl != ''}}" class='wallpaper' src='{{thumbUrl}}' mode='widthFix' bindtap='showWallpaper' />
+  <view class='image-button' bindtap='showWallpaper' style='margin-top: 100rpx;'>
+    <image src='../../images/ic_home.png' class='button-image' />
+    <text class='image-text'>保存壁纸</text>
+  </view>
+  <view class='image-button' style='margin-top: 40rpx; margin-bottom: 20rpx'>
+    <image src='../../images/ic_mark.png' class='button-image' />
+    <text class='image-text'>收藏壁纸</text>
+  </view>
+</view>

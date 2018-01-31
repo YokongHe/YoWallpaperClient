@@ -1,0 +1,13 @@
+page {
+  background-color: #000;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+}
+
+.load-more-text {
+  color: #fff;
+  font-size: 30rpx;
+}
