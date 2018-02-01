@@ -5,7 +5,7 @@
     <image src='../../images/ic_home.png' class='button-image' />
     <text class='image-text'>保存壁纸</text>
   </view>
-  <view class='image-button' style='margin-top: 40rpx; margin-bottom: 20rpx'>
+  <view class='image-button' style='margin-top: 40rpx; margin-bottom: 20rpx' bindtap='doMark'>
     <image src='../../images/ic_mark.png' class='button-image' />
     <text class='image-text'>收藏壁纸</text>
   </view>

@@ -2,7 +2,7 @@
   "pages": [
     "pages/wallpapers/wallpapers",
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/mark/mark",
     "pages/detail/detail"
   ],
   "tabBar": {
@@ -17,7 +17,7 @@
         "selectedIconPath": "images/ic_home_selected.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/mark/mark",
         "text": "收藏",
         "iconPath": "images/ic_mark.png",
         "selectedIconPath": "images/ic_mark_selected.png"
