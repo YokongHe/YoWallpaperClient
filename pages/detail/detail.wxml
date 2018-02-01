@@ -9,4 +9,8 @@
     <image src='../../images/ic_mark.png' class='button-image' />
     <text class='image-text'>收藏壁纸</text>
   </view>
+  <view class='dialog' hidden='{{dialogHidden}}'>
+    <text class='dialog-text'>如何下载壁纸：点按『保存壁纸』 → 长按图片 → 选择『保存图片』</text>
+    <text class='dialog-ok' bindtap='hideDialog'>知道了</text>
+  </view>
 </view>

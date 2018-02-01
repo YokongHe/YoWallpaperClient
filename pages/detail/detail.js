@@ -6,17 +6,20 @@ Page({
    */
   data: {
     thumbUrl: '',
-    url: ''
+    url: '',
+    dialogHidden: false
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options.url + " " + options.thumbUrl)
+    var that = this
+    var hidden = wx.getStorageSync('dialogHidden')
     this.setData({
       thumbUrl: options.thumbUrl,
-      url: options.url
+      url: options.url,
+      dialogHidden: hidden
     })
   },
 
@@ -120,5 +123,15 @@ Page({
       }
     }
     return false
+  },
+
+  hideDialog: function() {
+    wx.setStorage({
+      key: 'dialogHidden',
+      data: true,
+    })
+    this.setData({
+      dialogHidden: true
+    })
   }
 })

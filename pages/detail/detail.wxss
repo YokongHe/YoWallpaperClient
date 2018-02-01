@@ -29,12 +29,40 @@ page {
 
 .image-text {
   color: #fff;
-  font-size: 25rpx;  
+  font-size: 25rpx;
   margin-right: 20rpx;
 }
 
 .button-image {
   width: 50rpx;
   height: 50rpx;
-  margin-right: 40rpx
+  margin-right: 40rpx;
+}
+
+.dialog {
+  display: flex;
+  width: 80%;
+  position: fixed;
+  bottom: 20rpx;
+  background: #848484;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dialog-text {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  color: #fff;
+  font-size: 18rpx;
+}
+
+.dialog-ok {
+  color: #fff;
+  font-size: 18rpx;
+  text-decoration-line: underline;
+  text-align: end;
+  padding-top: 8rpx;
+  padding-right: 20rpx;
+  padding-bottom: 20rpx;
 }
