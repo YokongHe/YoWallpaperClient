@@ -13,39 +13,16 @@ page {
 .wallpaper {
   width: 100%;
   background-color: #000;
-}
-
-.image-button {
-  display: flex;
-  border-color: #fff;
-  border-width: 5rpx;
-  border-style: solid;
-  border-radius: 5rpx;
-  width: 400rpx;
-  height: 80rpx;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-text {
-  color: #fff;
-  font-size: 25rpx;
-  margin-right: 20rpx;
-}
-
-.button-image {
-  width: 50rpx;
-  height: 50rpx;
-  margin-right: 40rpx;
+  padding-bottom: 102rpx;
 }
 
 .dialog {
   display: flex;
   width: 85%;
   position: fixed;
-  bottom: 20rpx;
+  bottom: 143rpx;
   border-radius: 100rpx;
-  background: #FFFFFF;
+  background: #fff;
   opacity: 0.8;
   justify-content: center;
   flex-direction: column;
@@ -55,12 +32,12 @@ page {
   margin-top: 32rpx;
   margin-left: 74rpx;
   margin-right: 74rpx;
-  color: #333333;
+  color: #333;
   font-size: 20rpx;
 }
 
 .dialog-ok {
-  color: #003ED9;
+  color: #003ed9;
   font-size: 20rpx;
   text-decoration-line: underline;
   text-align: end;
@@ -68,4 +45,31 @@ page {
   padding-top: 12rpx;
   padding-right: 20rpx;
   padding-bottom: 20rpx;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  height: 102rpx;
+  display: flex;
+}
+
+.image-button {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-image {
+  width: 54rpx;
+  height: 54rpx;
+}
+
+.image-text {
+  color: #fff;
+  font-size: 20rpx;
 }

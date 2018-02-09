@@ -1,16 +1,21 @@
 <!--pages/detail/detail.wxml-->
 <view class='parent'>
   <image wx:if="{{thumbUrl != ''}}" class='wallpaper' src='{{thumbUrl}}' mode='widthFix' bindtap='showWallpaper' />
-  <view class='image-button' bindtap='showWallpaper' style='margin-top: 100rpx;'>
-    <image src='../../images/ic_download.png' class='button-image' />
-    <text class='image-text'>保存壁纸</text>
-  </view>
-  <view class='image-button' style='margin-top: 40rpx; margin-bottom: 20rpx' bindtap='doMark'>
-    <image src='../../images/ic_mark.png' class='button-image' />
-    <text class='image-text'>收藏壁纸</text>
-  </view>
+
   <view class='dialog' hidden='{{dialogHidden}}'>
     <text class='dialog-text'>如何下载壁纸：点按"下载">长按图片>选择"保存图片"</text>
     <text class='dialog-ok' bindtap='hideDialog'>知道了</text>
+  </view>
+
+  <view class='bottom'>
+    <view class='image-button' bindtap='showWallpaper'>
+      <image src='../../images/ic_download.png' class='button-image' />
+      <text class='image-text'>下载</text>
+    </view>
+
+    <view class='image-button' bindtap='doMark'>
+      <image src='../../images/ic_mark.png' class='button-image' />
+      <text class='image-text'>收藏</text>
+    </view>
   </view>
 </view>
