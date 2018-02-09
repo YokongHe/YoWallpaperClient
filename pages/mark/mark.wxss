@@ -15,8 +15,8 @@ page {
 }
 
 .mark {
-  width:40rpx;
-  height: 40rpx;
-  margin-top: -80rpx;
-  padding: 20rpx;
+  width:42rpx;
+  height: 42rpx;
+  margin-top: -78rpx;
+  padding: 18rpx;
 }

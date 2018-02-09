@@ -2,7 +2,7 @@
   <block wx:for="{{markList}}">
     <view class='parent'>
       <image src="{{item.thumbUrl}}" class='wallpaper' data-url="{{item.url}}" data-thumb-url='{{item.thumbUrl}}' mode='widthFix' lazy-load='true' bindtap='jumpToInfo' />
-      <image src="../../images/ic_mark_selected.png" class='mark' bindtap='doUnMark' data-url="{{item.url}}" data-thumb-url='{{item.thumbUrl}}' />
+      <image src="../../images/ic_mark_selected_small.png" class='mark' bindtap='doUnMark' data-url="{{item.url}}" data-thumb-url='{{item.thumbUrl}}' />
     </view>
   </block>
 </scroll-view>

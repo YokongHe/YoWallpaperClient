@@ -41,28 +41,31 @@ page {
 
 .dialog {
   display: flex;
-  width: 80%;
+  width: 85%;
   position: fixed;
   bottom: 20rpx;
-  background: #848484;
+  border-radius: 100rpx;
+  background: #FFFFFF;
+  opacity: 0.8;
   justify-content: center;
   flex-direction: column;
 }
 
 .dialog-text {
-  margin-top: 20rpx;
-  margin-left: 20rpx;
-  margin-right: 20rpx;
-  color: #fff;
-  font-size: 18rpx;
+  margin-top: 32rpx;
+  margin-left: 74rpx;
+  margin-right: 74rpx;
+  color: #333333;
+  font-size: 20rpx;
 }
 
 .dialog-ok {
-  color: #fff;
-  font-size: 18rpx;
+  color: #003ED9;
+  font-size: 20rpx;
   text-decoration-line: underline;
   text-align: end;
-  padding-top: 8rpx;
+  margin-right: 54rpx;
+  padding-top: 12rpx;
   padding-right: 20rpx;
   padding-bottom: 20rpx;
 }

@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/wallpapers/wallpapers",
-    "pages/index/index",
+    "pages/about/about",
     "pages/mark/mark",
     "pages/detail/detail"
   ],
@@ -23,7 +23,7 @@
         "selectedIconPath": "images/ic_mark_selected.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/about/about",
         "text": "关于",
         "iconPath": "images/ic_more.png",
         "selectedIconPath": "images/ic_more_selected.png"

@@ -2,7 +2,7 @@
   <block wx:for="{{photoList}}">
     <view class='parent'>
       <image src="{{item.thumbUrl}}" class='wallpaper' data-url="{{item.url}}" data-thumb-url='{{item.thumbUrl}}' mode='widthFix' lazy-load='true' bindtap='jumpToInfo' />
-      <image src="../../images/ic_mark.png" class='mark' bindtap='doMark' data-url="{{item.url}}" data-thumb-url='{{item.thumbUrl}}'/>
+      <image src="../../images/ic_mark_small.png" class='mark' bindtap='doMark' data-url="{{item.url}}" data-thumb-url='{{item.thumbUrl}}'/>
     </view>
   </block>
   <view class="load-more" hidden='{{isEnd}}'>
