@@ -1,13 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text bindtap="jumpToWallpaper"class="user-motto">{{motto}}</text>
-  </view>
+  <image src='../../images/ic_logo.png' class='logo'/>
+  <text class='title'>Yo Wallpaper</text>
+  <text class='text'>Yo Wallpaper是一款简单的壁纸应用，内容由Yokong（Wechat：chunchun15）和蟹老板从无版权网站Unsplash上挑选而来。好看的图片太多，但是好看不代表适合作为壁纸，Yo Wallpaper只挑选适合作为壁纸的图片。</text>
+  <text class='text'>Yo Wallpaper会在每周至少一次更新的基础上，不定期更新一些壁纸。如果你对Yo Wallpaper有什么建议，可以添加我的微信与我沟通，乐意听到你不一样的声音。</text>
+  <text class='sign'>- By Yokong -</text>
 </view>
